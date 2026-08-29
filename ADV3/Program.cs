@@ -140,12 +140,19 @@ namespace ADV3
             //    Console.WriteLine("Khaled not found");
             #endregion
             #region 6. Get a contact with a fallback of "Not Found" 
-            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
-            string number = phoneBook.GetValueOrDefault("Khaled", "Not Found");
-            Console.WriteLine("Khaled number: " + number);
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //string number = phoneBook.GetValueOrDefault("Khaled", "Not Found");
+            //Console.WriteLine("Khaled number: " + number);
 
-            string number2 = phoneBook.GetValueOrDefault("Mona", "Not Found");
-            Console.WriteLine("Mona number: " + number2);
+            //string number2 = phoneBook.GetValueOrDefault("Mona", "Not Found");
+            //Console.WriteLine("Mona number: " + number2);
+            #endregion
+            #region 7. Print all Keys on one line, then all Values on another line 
+            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+
+            Console.WriteLine("All Keys: " + string.Join(", ", phoneBook.Keys));
+            Console.WriteLine("All Values: " + string.Join(", ", phoneBook.Values));
             #endregion
         }
 
