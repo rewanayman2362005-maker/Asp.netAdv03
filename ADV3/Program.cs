@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ADV3
 {
@@ -84,6 +85,12 @@ namespace ADV3
             //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
             //Console.WriteLine($"Score 500 exists? : {leaderboard.ContainsKey(500)}");
             #endregion
+            #region 5.Safely get the player with score 999
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //var player = leaderboard.GetValueOrDefault(999);
+            #endregion
+
+
         }
 
     }
