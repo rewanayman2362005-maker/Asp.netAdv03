@@ -97,6 +97,13 @@ namespace ADV3
             //    Console.WriteLine($"Score: {entry.Key} - Player: {entry.Value}");
             //}
             #endregion
+            #region 1. Create a Collection with 4 contacts (name → phone number)
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //phoneBook.Add("Ahmed", "01012345678");
+            //phoneBook.Add("Sara", "01198765432");
+            //phoneBook.Add("Ali", "01255555");
+            //phoneBook.Add("Mona", "01599999");
+            #endregion
 
         }
 
