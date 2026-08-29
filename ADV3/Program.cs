@@ -60,6 +60,13 @@ namespace ADV3
             //    Console.WriteLine(gradeString);
             //}
             #endregion
+            #region 1. Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //leaderboard.Add(500, "Ahmed");
+            //leaderboard.Add(200, "Sara");
+            //leaderboard.Add(800, "Ali");
+            //leaderboard.Add(350, "Mona");
+            #endregion
         }
 
     }
