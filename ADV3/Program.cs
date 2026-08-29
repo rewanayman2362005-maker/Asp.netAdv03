@@ -21,6 +21,15 @@
 
 
             #endregion
+            #region 3. Sort the grades ascending, then print
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //grades.Sort();
+            //foreach (int grade in grades)
+            //{
+            //    Console.WriteLine(grade);
+            //}
+
+            #endregion
 
 
         }
