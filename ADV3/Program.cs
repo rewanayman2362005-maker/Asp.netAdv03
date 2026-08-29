@@ -174,10 +174,17 @@ namespace ADV3
             //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
             //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
             #endregion
+
+
             #region // 5. Print the result of: IntersectWith
             //HashSet<int> intersect = new HashSet<int>(setA);
             //intersect.IntersectWith(setB);
             //Console.WriteLine("Intersect: " + string.Join(", ", intersect)); // 4, 5
+            #endregion
+            #region // 6. Use IsSubsetOf to check if {1,2} is a subset of Set A
+            //HashSet<int> smallSet = new HashSet<int> { 1, 2 };
+            //bool isSubset = smallSet.IsSubsetOf(setA);
+            //Console.WriteLine("Is {1,2} subset of Set A: " + isSubset); 
             #endregion
         }
 
