@@ -158,6 +158,12 @@ namespace ADV3
             // new HashSet<string>(StringComparer.OrdinalIgnoreCase)
             HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             #endregion
+            #region // 2. Add these emails: "ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com"
+            emails.Add("ahmed@test.com");
+            emails.Add("AHMED@test.com");
+            emails.Add("sara@test.com");
+            emails.Add("Sara@Test.Com");
+            #endregion
         }
 
     }
