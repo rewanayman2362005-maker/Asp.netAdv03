@@ -67,6 +67,14 @@ namespace ADV3
             //leaderboard.Add(800, "Ali");
             //leaderboard.Add(350, "Mona");
             #endregion
+            #region 2. Print all entries (they should be sorted by score automatically)
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+
+            //foreach (var entry in leaderboard.Reverse()) 
+            //{
+            //    Console.WriteLine($"Score: {entry.Key} - Player: {entry.Value}");
+            //}
+            #endregion
         }
 
     }
