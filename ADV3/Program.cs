@@ -138,6 +138,15 @@ namespace ADV3
             //    Console.WriteLine("Found: " + phoneBook["Khaled"]);
             //else
             //    Console.WriteLine("Khaled not found");
+            #endregion
+            #region 6. Get a contact with a fallback of "Not Found" 
+            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            string number = phoneBook.GetValueOrDefault("Khaled", "Not Found");
+            Console.WriteLine("Khaled number: " + number);
+
+            string number2 = phoneBook.GetValueOrDefault("Mona", "Not Found");
+            Console.WriteLine("Mona number: " + number2);
+            #endregion
         }
 
     }
