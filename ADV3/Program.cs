@@ -108,6 +108,18 @@ namespace ADV3
             //phoneBook["Omar"] = "01011112222";
             //phoneBook["Sara"] = "01100000";    
             #endregion
+            #region 3. Try adding a duplicate using .Add() — catch the exception and print the error
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "01099999"); 
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+            #endregion
         }
 
     }
