@@ -30,8 +30,10 @@
             //}
 
             #endregion
-
-
+            #region 4. Get the first grade above 90
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //Console.WriteLine($"first grade above 90 : {grades.FirstOrDefault(g => g > 90)}"); 
+            #endregion
         }
     }
 }
