@@ -89,7 +89,14 @@ namespace ADV3
             //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
             //var player = leaderboard.GetValueOrDefault(999);
             #endregion
-
+            #region 6. Remove the player with score 200 and print the updated list
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //leaderboard.Remove(200);
+            //foreach (var entry in leaderboard.Reverse()) 
+            //{
+            //    Console.WriteLine($"Score: {entry.Key} - Player: {entry.Value}");
+            //}
+            #endregion
 
         }
 
