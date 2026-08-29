@@ -105,6 +105,8 @@ namespace ADV3
             //phoneBook.Add("Mona", "01599999");
             #endregion
             #region 2. Add a new contact using [] syntax (add or update) 
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
             //phoneBook["Omar"] = "01011112222";
             //phoneBook["Sara"] = "01100000";    
             #endregion
@@ -119,6 +121,15 @@ namespace ADV3
             //{
             //    Console.WriteLine("Error: " + ex.Message);
             //}
+            #endregion
+            #region 4. Try adding a duplicate using .TryAdd() — print whether it succeeded 
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            //bool added1 = phoneBook.TryAdd("Ali", "01200000"); 
+            //Console.WriteLine("TryAdd Ali succeeded: " + added1);
+
+            //bool added2 = phoneBook.TryAdd("Nour", "01022223333"); 
+            //Console.WriteLine("TryAdd Nour succeeded: " + added2);
             #endregion
         }
 
