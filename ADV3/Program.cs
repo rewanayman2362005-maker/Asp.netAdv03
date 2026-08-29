@@ -159,10 +159,16 @@ namespace ADV3
             HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             #endregion
             #region // 2. Add these emails: "ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com"
-            emails.Add("ahmed@test.com");
-            emails.Add("AHMED@test.com");
-            emails.Add("sara@test.com");
-            emails.Add("Sara@Test.Com");
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+            #endregion
+            #region // 3. Print Count — how many are actually stored? Explain why.
+            Console.WriteLine("Count: " + emails.Count); // 2
+            Console.WriteLine("Reason: HashSet with OrdinalIgnoreCase treats 'ahmed@test.com' == 'AHMED@test.com'");
+            foreach (var email in emails)
+                Console.WriteLine(email);
             #endregion
         }
 
