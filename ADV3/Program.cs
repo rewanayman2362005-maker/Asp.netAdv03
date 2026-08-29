@@ -1,4 +1,6 @@
-﻿namespace ADV3
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace ADV3
 {
     internal class Program
     {
@@ -46,6 +48,11 @@
             //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
             //grades.RemoveAll(g => g < 75);
             #endregion
+            #region 7. Check if any grade equals 100
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //Console.WriteLine($"Any grade equals 100? : {grades.Any(g => g == 100)}");
+            #endregion
         }
+
     }
 }
