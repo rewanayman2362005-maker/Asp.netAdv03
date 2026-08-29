@@ -171,9 +171,14 @@ namespace ADV3
             //    Console.WriteLine(email);
             #endregion
             #region // 4. Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
-            HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
-            HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
-#endregion
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            #endregion
+            #region // 5. Print the result of: IntersectWith
+            //HashSet<int> intersect = new HashSet<int>(setA);
+            //intersect.IntersectWith(setB);
+            //Console.WriteLine("Intersect: " + string.Join(", ", intersect)); // 4, 5
+            #endregion
         }
 
     }
