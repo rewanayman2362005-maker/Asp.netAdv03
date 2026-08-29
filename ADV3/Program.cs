@@ -122,6 +122,7 @@ namespace ADV3
             //    Console.WriteLine("Error: " + ex.Message);
             //}
             #endregion
+
             #region 4. Try adding a duplicate using .TryAdd() — print whether it succeeded 
             //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
@@ -131,6 +132,12 @@ namespace ADV3
             //bool added2 = phoneBook.TryAdd("Nour", "01022223333"); 
             //Console.WriteLine("TryAdd Nour succeeded: " + added2);
             #endregion
+            #region 5. Search for a contact that doesn’t exist
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //if (phoneBook.ContainsKey("Khaled"))
+            //    Console.WriteLine("Found: " + phoneBook["Khaled"]);
+            //else
+            //    Console.WriteLine("Khaled not found");
         }
 
     }
