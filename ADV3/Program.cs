@@ -52,6 +52,14 @@ namespace ADV3
             //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
             //Console.WriteLine($"Any grade equals 100? : {grades.Any(g => g == 100)}");
             #endregion
+            #region 8. Create a List<string> where each grade becomes "Grade: X"
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //var gradeStrings = grades.Select(g => $"Grade: {g}");
+            //foreach (string gradeString in gradeStrings)
+            //{
+            //    Console.WriteLine(gradeString);
+            //}
+            #endregion
         }
 
     }
