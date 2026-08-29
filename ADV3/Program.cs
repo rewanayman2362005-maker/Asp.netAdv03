@@ -42,6 +42,10 @@
             //    Console.WriteLine(grade);
             //}
             #endregion
+            #region   6.Remove all failing grades(below 75)
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //grades.RemoveAll(g => g < 75);
+            #endregion
         }
     }
 }
