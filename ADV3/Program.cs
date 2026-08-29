@@ -148,11 +148,15 @@ namespace ADV3
             //Console.WriteLine("Mona number: " + number2);
             #endregion
             #region 7. Print all Keys on one line, then all Values on another line 
-            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
 
-            Console.WriteLine("All Keys: " + string.Join(", ", phoneBook.Keys));
-            Console.WriteLine("All Values: " + string.Join(", ", phoneBook.Values));
+            //Console.WriteLine("All Keys: " + string.Join(", ", phoneBook.Keys));
+            //Console.WriteLine("All Values: " + string.Join(", ", phoneBook.Values));
+            #endregion
+            #region // 1. Create a HashSet<string> with a case-insensitive comparer: 
+            // new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
             #endregion
         }
 
