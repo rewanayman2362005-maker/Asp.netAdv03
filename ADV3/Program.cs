@@ -75,6 +75,11 @@ namespace ADV3
             //    Console.WriteLine($"Score: {entry.Key} - Player: {entry.Value}");
             //}
             #endregion
+            #region 3.Access the first key and first value
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //var firstKey = leaderboard.Keys.First();
+            //var firstValue = leaderboard.Values.First();
+            #endregion
         }
 
     }
