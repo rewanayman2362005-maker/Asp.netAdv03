@@ -80,6 +80,10 @@ namespace ADV3
             //var firstKey = leaderboard.Keys.First();
             //var firstValue = leaderboard.Values.First();
             #endregion
+            #region 4. Check if score 500 exists
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //Console.WriteLine($"Score 500 exists? : {leaderboard.ContainsKey(500)}");
+            #endregion
         }
 
     }
