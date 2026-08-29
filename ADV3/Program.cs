@@ -165,11 +165,15 @@ namespace ADV3
             //emails.Add("Sara@Test.Com");
             #endregion
             #region // 3. Print Count — how many are actually stored? Explain why.
-            Console.WriteLine("Count: " + emails.Count); // 2
-            Console.WriteLine("Reason: HashSet with OrdinalIgnoreCase treats 'ahmed@test.com' == 'AHMED@test.com'");
-            foreach (var email in emails)
-                Console.WriteLine(email);
+            //Console.WriteLine("Count: " + emails.Count); // 2
+            //Console.WriteLine("Reason: HashSet with OrdinalIgnoreCase treats 'ahmed@test.com' == 'AHMED@test.com'");
+            //foreach (var email in emails)
+            //    Console.WriteLine(email);
             #endregion
+            #region // 4. Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
+            HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+#endregion
         }
 
     }
