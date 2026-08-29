@@ -34,6 +34,14 @@
             //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
             //Console.WriteLine($"first grade above 90 : {grades.FirstOrDefault(g => g > 90)}"); 
             #endregion
+            #region  5.Get all grades below 75(failing grades)
+            //List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //var failingGrades = grades.Where(g => g < 75);
+            //foreach (int grade in failingGrades)
+            //{
+            //    Console.WriteLine(grade);
+            //}
+            #endregion
         }
     }
 }
