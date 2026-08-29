@@ -104,7 +104,10 @@ namespace ADV3
             //phoneBook.Add("Ali", "01255555");
             //phoneBook.Add("Mona", "01599999");
             #endregion
-
+            #region 2. Add a new contact using [] syntax (add or update) 
+            //phoneBook["Omar"] = "01011112222";
+            //phoneBook["Sara"] = "01100000";    
+            #endregion
         }
 
     }
